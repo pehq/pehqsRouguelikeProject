@@ -47,6 +47,23 @@ function ConvertArrayMapToStr(arraymap) {
     return str;
 }
 
+function getJson(jsonLocation) {
+    fetch(jsonLocation)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      return data
+    })
+    .catch(error => {
+      console.error('There was a problem with the fetch operation:', error);
+    });
+}
+
+console.log(getJson('AnimationData/Loading.json'))
 
 const LoadingAnimation = [
     "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                     :>                                     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
