@@ -46,9 +46,7 @@ function ConvertArrayMapToStr(arraymap) {
     return str;
 }
 
-import animJson from "./AnimationData/Loading.json" assert {type: 'json'};
 
-console.log(animJson)
 
 const LoadingAnimation = [
     "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                     :>                                     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
