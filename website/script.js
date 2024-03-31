@@ -37,7 +37,6 @@ function ConvertArrayMapToStr(arraymap) {
     for (let i = 0; i < arraymap.length; i++) {
         for (let j = 0; j < arraymap[i].length; j++) {
             str = str.concat(arraymap[i][j]);
-            console.log(str)
         }
         if (i != arraymap.length) {
             str = str.concat("\n");
