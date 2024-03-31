@@ -62,7 +62,7 @@ function getJson(jsonLocation) {
     });
 }
 
-console.log(getJson('AnimationData/Loading.json'))
+console.log(getJson('./AnimationData/Loading.json'))
 
 const LoadingAnimation = [
     "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                     :>                                     \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
